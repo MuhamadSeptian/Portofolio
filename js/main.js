@@ -21,12 +21,12 @@ window.onload = function () {
   document.getElementById('greet').innerHTML = greeting;
   setTimeout(function () {
     document.getElementById('greet').style.visibility = 'hidden';
-  }, 5000);
+  }, 10000);
 
   function changeImage() {
     var BackgroundImg = ['./images/luciaweave.png', './images/brs.png', './images/IMG_8096.JPG', './images/alisa.png', './images/wuwa.png'];
     var i = Math.floor(Math.random() * 5);
     document.getElementById('home').style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
   }
-  window.setInterval(changeImage, 5000);
+  window.setInterval(changeImage, 10000);
 };
