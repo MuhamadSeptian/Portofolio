@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/lucia.gif" />
+    <link href="css/resume.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap" rel="stylesheet" />
+    <style>
+      .toggle {
+        height: 0px;
+      }
+      @media only screen and (max-width: 800px) {
+        .toggle {
+          height: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toggle">
+      <span style="font-size: 40px; cursor: pointer; margin-left: 10px" onclick="openNav()" id="open">&#9776; </span>
+    </div>
+    <div id="myNav" class="navbar" style="background-color: rgba(0, 0, 0, 0.9)">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="close">&times;</a>
+      <div class="navbar-content">
+        <a href="home.html">Home</a>
+        <a href="resume.html" id="active">CV</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="top-part">
+      <div class="back-part">
+        <div class="sign">
+          <img src="images/Iconslogo/sign1.png" />
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/muhammad.septian.144181" target="_blank"><img src="images/Iconslogo/facebook-32.png" /></a>
+
+          <a href="https://twitter.com/MuhamadSep4208" target="_blank"><img src="images/Iconslogo/twitter-32.png" /></a>
+
+          <a href="https://www.instagram.com/_ms.tempest/" target="_blank"><img src="images/Iconslogo/instagram-32.png" /></a>
+
+          <a href="https://github.com/MuhamadSeptian" target="_blank"><img src="images/Iconslogo/github-32.png" /></a>
+
+          <a href="https://www.youtube.com/channel/UC-SqwU0n6wYIHpCmboIRl-w" target="_blank"><img src="images/Iconslogo/youtube-32.png" /></a>
+        </div>
+        <div class="down-button">
+          <a href="">
+            <button class="btn-dwn" type="button" onclick="confirmDownload()">Download CV<i class="fa fa-download" id="dwn-icon"></i></button>
+          </a>
+        </div>
+      </div>
+      <div class="per-img"></div>
+    </div>
+    <div class="main-part">
+      <h2>Muhamad Septian</h2>
+      <div class="cv-area">
+        <div class="fieldset-cover">
+          <fieldset>
+            <legend>Biodata Diri</legend>
+            <div class="per-detail">
+              <table class="tb-left">
+                <tr>
+                  <th>Nama</th>
+                  <td>:</td>
+                  <td>Muhamad Septian</td>
+                </tr>
+                <tr>
+                  <th>Alamat</th>
+                  <td>:</td>
+                  <td>Komp. RSS Griya Harapan A Blok 20 No 21</td>
+                </tr>
+                <tr>
+                  <th>Jenis Kelamin</th>
+                  <td>:</td>
+                  <td>Laki - Laki</td>
+                </tr>
+                <tr>
+                  <th>No. Kontak</th>
+                  <td>:</td>
+                  <td>082180552866</td>
+                </tr>
+                <tr>
+                  <th>Agama</th>
+                  <td>:</td>
+                  <td>Islam</td>
+                </tr>
+              </table>
+              <table class="tb-right">
+                <tr>
+                  <th>Umur</th>
+                  <td>:</td>
+                  <td>20 Tahun</td>
+                </tr>
+                <tr>
+                  <th>Tempat, Tanggal Lahir</th>
+                  <td>:</td>
+                  <td>Palembang, 29 September 2003</td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td>:</td>
+                  <td>mseptian939@gmail.com</td>
+                </tr>
+                <tr>
+                  <th>Bahasa</th>
+                  <td>:</td>
+                  <td>Indonesia dan Palembang</td>
+                </tr>
+              </table>
+            </div>
+          </fieldset>
+        </div>
+        <div class="fieldset-cover">
+          <fieldset>
+            <legend>Pendidikan</legend>
+            <div class="edu-detail">
+              <table>
+                <tr>
+                  <th>Sekolah Dasar</th>
+                  <td>:</td>
+                  <td>SD Negeri 113 Palembang (2012 - 2015)</td>
+                </tr>
+                <tr>
+                  <th>Sekolah Menengah Pertama</th>
+                  <td>:</td>
+                  <td>SMP Negeri 53 Palembang (2015 - 2018)</td>
+                </tr>
+                <tr>
+                  <th>Sekolah Menengah Kejuruan</th>
+                  <td>:</td>
+                  <td>SMK Utama Bakti Palembang (2018 - 2021)</td>
+                </tr>
+                <tr>
+                  <th>Pasca Sarjana</th>
+                  <td>:</td>
+                  <td>Universitas Katolik Musi Charitas Palembang (2022 - Sekarang)</td>
+                </tr>
+              </table>
+            </div>
+          </fieldset>
+        </div>
+        <div class="fieldset-cover">
+          <fieldset>
+            <legend>Pengalaman Organisasi dan Kepanitiaan</legend>
+            <div class="work-detail">
+              <table class="tbl-work">
+                <tr>
+                  <th>Universitas Katolik Musi Charitas Palembang</th>
+                  <td>:</td>
+                  <td>Anggota Dokumentasi dan Publikasi di Himaprodi Informatika</td>
+                </tr>
+                <tr>
+                  <th>Universitas Katolik Musi Charitas Palembang</th>
+                  <td>:</td>
+                  <td>Panitia Kuliah Umum Himaprodi Informatika</td>
+                </tr>
+                <tr>
+                  <th>Universitas Katolik Musi Charitas Palembang</th>
+                  <td>:</td>
+                  <td>Panitia Makrab Himaprodi Informatika</td>
+                </tr>
+              </table>
+            </div>
+          </fieldset>
+        </div>
+        <div class="skill-section" id="skill-section">
+          <h2>My Skills & Abilities</h2>
+          <div class="skill-part">
+            <div class="prgm-skill">
+              <h2>Programming and Designing</h2>
+              <p>Java</p>
+              <div class="container-skill">
+                <div class="skills java">10%</div>
+              </div>
+
+              <p>HTML</p>
+              <div class="container-skill">
+                <div class="skills html">40%</div>
+              </div>
+              <p>Javascript</p>
+              <div class="container-skill">
+                <div class="skills js">10%</div>
+              </div>
+              <p>CSS</p>
+              <div class="container-skill">
+                <div class="skills css">40%</div>
+              </div>
+              <p>MySQL</p>
+              <div class="container-skill">
+                <div class="skills sql">40%</div>
+              </div>
+            </div>
+
+            <div class="design-skill">
+              <h2>Other Skills</h2>
+              <p>Microsoft Word</p>
+              <div class="container-skill">
+                <div class="skills word">65%</div>
+              </div>
+
+              <p>Microsoft Power Point</p>
+              <div class="container-skill">
+                <div class="skills ppt">50%</div>
+              </div>
+              <p>Microsoft Excel</p>
+              <div class="container-skill">
+                <div class="skills Excel">45%</div>
+              </div>
+              <p>English Language</p>
+              <div class="container-skill">
+                <div class="skills english">20%</div>
+              </div>
+              <p>Japanese Language</p>
+              <div class="container-skill">
+                <div class="skills japanese">20%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 <a href="https://www.instagram.com/_ms.tempest/">Muhamad Septian</a></p>
+    </div>
+    <script>
+      function confirmDownload() {
+        alert('Download is preparing & will begin shortly...');
+      }
+    </script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
